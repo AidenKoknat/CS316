@@ -1,0 +1,151 @@
+/* Element Selector */
+body { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-style: oblique;
+}
+
+.menu { /* nav */
+    float: left;
+    margin-top: 2%;
+    position: absolute;
+    width: 10%;
+    height: 77%;
+    border: 1px solid white;
+    left: -8.5%;
+    background-color: black;
+} 
+
+h8 { /* Left Side Pictures */
+    float: right;
+    margin-top: 1%;
+    width: 18%;
+    position: absolute;
+}
+
+.menu:hover {
+    left: 0%;
+    transition: left .6s ease-out;
+}
+.menu {
+    transition: left .6 ease-out;
+}
+
+figcaption.popup {
+    font-size:xx-large;
+    top: 2%;
+    left:-90%;
+    margin-right: 86%;
+    position: absolute;
+    background-color: black;
+    border:  10px solid white;
+    visibility: hidden;
+    position: absolute;
+}
+
+figure.thumbnail:hover figcaption.popup {
+    visibility: visible;
+}
+
+figcaption.popup2 {
+    font-size:xx-large;
+    left: -85%;
+    margin-right: 86%;
+    top: 50%;
+    position: absolute;
+    background-color: black;
+    border: 10px solid white;
+    visibility: hidden;
+    position: absolute;
+}
+
+figure.thumbnail2:hover figcaption.popup2 {
+    visibility: visible;
+}
+
+/* Class Selector */
+.button {
+    background-color: darkblue;
+    transition-duration: 0.4s;
+    color: white
+}
+
+.button1 {padding: 22px 19px; font-style: bold;}
+
+/* ID Selector */
+#musician {
+    color: white
+}
+
+/* Psuedo-Selectors */
+p::first-letter {
+    font-size: larger;
+}
+
+a {
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Box Model for sizing */
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    float: left;
+    font-size: 40px;
+    width: 77%;
+    height: 40%;
+    border: 15px solid white;
+    padding: 40px;
+    margin-left: 2%;
+    margin-right: -2%
+}
+
+div {
+    width: 90%;
+    height: 200px;
+    padding: 100px;
+}
+
+#logo {
+    background-image: url("Logo.jpg");
+    background-size: 200px;
+}
+
+table {
+    position: relative;
+    font-size: 30px;
+    width: 98%;
+    height: 30%;
+    border: 15px solid white;
+    margin: 20px;
+}
+
+thead {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+caption {
+    font-family:'Courier New', Courier, monospace;
+}
+
+tr {
+    transition-duration: 0.4s;
+}
+
+tr:hover {
+    background-color: rgba(112, 112, 112, 0.527);
+}
+
+td {
+    border: 1px solid white;
+}
